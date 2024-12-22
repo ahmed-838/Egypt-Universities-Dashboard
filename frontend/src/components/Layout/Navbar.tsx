@@ -36,7 +36,7 @@ export function Navbar() {
               <Menu.Button className="flex rounded-full text-sm focus:outline-none">
                 <User className="h-8 w-8 text-gray-600" />
               </Menu.Button>
-              <Menu.Items className="absolute right-0 mt-2 w-48 rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5">
+              <Menu.Items className="absolute right-0 top-[calc(100%+0.5rem)] w-48 rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 z-50">
                 {isAuthenticated ? (
                   <Menu.Item>
                     {({ active }) => (

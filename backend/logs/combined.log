@@ -1,0 +1,449 @@
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T20:33:54.761Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:34:48 +0000] \"GET /api/universities? HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:34:48.596Z"}
+{"level":"info","message":{"duration":"18ms","method":"GET","status":304,"url":"/?"},"timestamp":"2024-12-22T20:34:48.598Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:34:54 +0000] \"GET /api/universities? HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:34:54.224Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","status":304,"url":"/?"},"timestamp":"2024-12-22T20:34:54.225Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:35:16 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:5000/status\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:35:16.911Z"}
+{"level":"info","message":{"duration":"2ms","method":"GET","status":404,"url":"/favicon.ico"},"timestamp":"2024-12-22T20:35:16.911Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:35:46 +0000] \"GET /status-monitor HTTP/1.1\" 404 153 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:35:46.557Z"}
+{"level":"info","message":{"duration":"1ms","method":"GET","status":404,"url":"/status-monitor"},"timestamp":"2024-12-22T20:35:46.557Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:36:00 +0000] \"GET //status-monitor HTTP/1.1\" 404 154 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:36:00.853Z"}
+{"level":"info","message":{"duration":"1ms","method":"GET","status":404,"url":"//status-monitor"},"timestamp":"2024-12-22T20:36:00.854Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:36:04 +0000] \"GET /status-monitor HTTP/1.1\" 404 153 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:36:04.164Z"}
+{"level":"info","message":{"duration":"1ms","method":"GET","status":404,"url":"/status-monitor"},"timestamp":"2024-12-22T20:36:04.164Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:36:41 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:36:41.561Z"}
+{"level":"info","message":{"duration":"7ms","method":"GET","status":200,"url":"/metrics"},"timestamp":"2024-12-22T20:36:41.561Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:37:45 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:37:45.508Z"}
+{"level":"info","message":{"duration":"8ms","method":"GET","status":404,"url":"/"},"timestamp":"2024-12-22T20:37:45.510Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:37:49 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:37:49.951Z"}
+{"level":"info","message":{"duration":"8ms","method":"GET","status":200,"url":"/metrics"},"timestamp":"2024-12-22T20:37:49.952Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [22/Dec/2024:20:38:00 +0000] \"GET /api/universities HTTP/1.1\" 200 1133 \"-\" \"axios/0.26.0\"","timestamp":"2024-12-22T20:38:00.175Z"}
+{"level":"info","message":{"duration":"15ms","method":"GET","status":200,"url":"/"},"timestamp":"2024-12-22T20:38:00.175Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:38:05 +0000] \"GET /status HTTP/1.1\" 200 197 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:38:05.619Z"}
+{"level":"info","message":{"duration":"1ms","method":"GET","status":200,"url":"/status"},"timestamp":"2024-12-22T20:38:05.620Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:40:18 +0000] \"GET /api/universities HTTP/1.1\" 200 1133 \"http://localhost:5000/status-monitor\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:40:18.685Z"}
+{"level":"info","message":{"duration":"3ms","method":"GET","status":200,"url":"/"},"timestamp":"2024-12-22T20:40:18.686Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:40:23 +0000] \"GET /api/ HTTP/1.1\" 404 143 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:40:23.349Z"}
+{"level":"info","message":{"duration":"1ms","method":"GET","status":404,"url":"/api/"},"timestamp":"2024-12-22T20:40:23.349Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:41:15 +0000] \"GET /socket.io/?EIO=3&transport=polling&t=PFm6afs HTTP/1.1\" 404 149 \"http://localhost:5000/status-monitor\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:41:15.145Z"}
+{"level":"info","message":{"duration":"9ms","method":"GET","status":404,"url":"/socket.io/?EIO=3&transport=polling&t=PFm6afs"},"timestamp":"2024-12-22T20:41:15.149Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:41:21 +0000] \"GET /socket.io/?EIO=3&transport=polling&t=PFm6cB1 HTTP/1.1\" 404 149 \"http://localhost:5000/status-monitor\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:41:21.362Z"}
+{"level":"info","message":{"duration":"8ms","method":"GET","status":404,"url":"/socket.io/?EIO=3&transport=polling&t=PFm6cB1"},"timestamp":"2024-12-22T20:41:21.364Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:41:31 +0000] \"GET /socket.io/?EIO=3&transport=polling&t=PFm6edn HTTP/1.1\" 404 149 \"http://localhost:5000/status-monitor\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:41:31.395Z"}
+{"level":"info","message":{"duration":"8ms","method":"GET","status":404,"url":"/socket.io/?EIO=3&transport=polling&t=PFm6edn"},"timestamp":"2024-12-22T20:41:31.397Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:41:36 +0000] \"GET /socket.io/?EIO=3&transport=polling&t=PFm6fsB HTTP/1.1\" 404 149 \"http://localhost:5000/status-monitor\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:41:36.416Z"}
+{"level":"info","message":{"duration":"10ms","method":"GET","status":404,"url":"/socket.io/?EIO=3&transport=polling&t=PFm6fsB"},"timestamp":"2024-12-22T20:41:36.419Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:41:41 +0000] \"GET /socket.io/?EIO=3&transport=polling&t=PFm6h4f HTTP/1.1\" 404 149 \"http://localhost:5000/status-monitor\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:41:41.434Z"}
+{"level":"info","message":{"duration":"7ms","method":"GET","status":404,"url":"/socket.io/?EIO=3&transport=polling&t=PFm6h4f"},"timestamp":"2024-12-22T20:41:41.437Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [22/Dec/2024:20:42:27 +0000] \"GET /api HTTP/1.1\" 404 142 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:42:27.230Z"}
+{"level":"info","message":{"duration":"2ms","method":"GET","status":404,"url":"/api"},"timestamp":"2024-12-22T20:42:27.231Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [22/Dec/2024:20:46:42 +0000] \"GET /api HTTP/1.1\" 404 142 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:46:42.891Z"}
+{"level":"info","message":{"duration":"2ms","method":"GET","status":404,"url":"/api"},"timestamp":"2024-12-22T20:46:42.892Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [22/Dec/2024:20:46:50 +0000] \"GET /api/universities HTTP/1.1\" 200 1133 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:46:50.309Z"}
+{"level":"info","message":{"duration":"13ms","method":"GET","status":200,"url":"/"},"timestamp":"2024-12-22T20:46:50.309Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:47:32 +0000] \"GET /socket.io/?EIO=3&transport=polling&t=PFm80gN HTTP/1.1\" 404 149 \"http://localhost:5000/status-monitor\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:47:32.009Z"}
+{"level":"info","message":{"duration":"8ms","method":"GET","status":404,"url":"/socket.io/?EIO=3&transport=polling&t=PFm80gN"},"timestamp":"2024-12-22T20:47:32.012Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [22/Dec/2024:20:47:53 +0000] \"GET /api HTTP/1.1\" 404 142 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:47:53.951Z"}
+{"level":"info","message":{"duration":"1ms","method":"GET","status":404,"url":"/api"},"timestamp":"2024-12-22T20:47:53.952Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:48:56 +0000] \"GET /api/universities? HTTP/1.1\" 200 1133 \"http://localhost:5173/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:48:56.925Z"}
+{"level":"info","message":{"duration":"15ms","method":"GET","status":200,"url":"/?"},"timestamp":"2024-12-22T20:48:56.925Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:50:07 +0000] \"GET /socket.io/?EIO=3&transport=polling&t=PFm8cXL HTTP/1.1\" 404 149 \"http://localhost:5000/status-monitor\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:50:07.088Z"}
+{"level":"info","message":{"duration":"11ms","method":"GET","status":404,"url":"/socket.io/?EIO=3&transport=polling&t=PFm8cXL"},"timestamp":"2024-12-22T20:50:07.092Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:50:10 +0000] \"GET /socket.io/?EIO=3&transport=polling&t=PFm8dGW HTTP/1.1\" 404 149 \"http://localhost:5000/status-monitor\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:50:10.100Z"}
+{"level":"info","message":{"duration":"9ms","method":"GET","status":404,"url":"/socket.io/?EIO=3&transport=polling&t=PFm8dGW"},"timestamp":"2024-12-22T20:50:10.103Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:50:29 +0000] \"GET /api/universities? HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:50:29.915Z"}
+{"level":"info","message":{"duration":"21ms","method":"GET","status":304,"url":"/?"},"timestamp":"2024-12-22T20:50:29.916Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:50:32 +0000] \"GET /api/universities? HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:50:32.484Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","status":304,"url":"/?"},"timestamp":"2024-12-22T20:50:32.484Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:50:46 +0000] \"GET /api/universities? HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:50:46.807Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","status":304,"url":"/?"},"timestamp":"2024-12-22T20:50:46.808Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:50:49 +0000] \"GET /api/universities? HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:50:49.619Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","status":304,"url":"/?"},"timestamp":"2024-12-22T20:50:49.619Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:50:53 +0000] \"GET /api/universities? HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:50:53.378Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","status":304,"url":"/?"},"timestamp":"2024-12-22T20:50:53.378Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:50:58 +0000] \"GET /api/universities? HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:50:58.597Z"}
+{"level":"info","message":{"duration":"3ms","method":"GET","status":304,"url":"/?"},"timestamp":"2024-12-22T20:50:58.597Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:51:10 +0000] \"GET /api/universities? HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:51:10.945Z"}
+{"level":"info","message":{"duration":"3ms","method":"GET","status":304,"url":"/?"},"timestamp":"2024-12-22T20:51:10.945Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:51:26 +0000] \"GET /api/universities? HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:51:26.821Z"}
+{"level":"info","message":{"duration":"3ms","method":"GET","status":304,"url":"/?"},"timestamp":"2024-12-22T20:51:26.821Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:51:30 +0000] \"GET /api/universities? HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:51:30.416Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","status":304,"url":"/?"},"timestamp":"2024-12-22T20:51:30.416Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:51:32 +0000] \"GET /api/universities? HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:51:32.619Z"}
+{"level":"info","message":{"duration":"3ms","method":"GET","status":304,"url":"/?"},"timestamp":"2024-12-22T20:51:32.620Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:51:35 +0000] \"GET /api/universities? HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:51:35.685Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","status":304,"url":"/?"},"timestamp":"2024-12-22T20:51:35.685Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:51:40 +0000] \"GET /api/universities? HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:51:40.238Z"}
+{"level":"info","message":{"duration":"2ms","method":"GET","status":304,"url":"/?"},"timestamp":"2024-12-22T20:51:40.238Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:51:49 +0000] \"GET /api/universities? HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:51:49.020Z"}
+{"level":"info","message":{"duration":"3ms","method":"GET","status":304,"url":"/?"},"timestamp":"2024-12-22T20:51:49.020Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:52:04 +0000] \"GET /api/universities? HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:52:04.389Z"}
+{"level":"info","message":{"duration":"3ms","method":"GET","status":304,"url":"/?"},"timestamp":"2024-12-22T20:52:04.389Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:52:08 +0000] \"GET /api/universities? HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:52:08.190Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","status":304,"url":"/?"},"timestamp":"2024-12-22T20:52:08.191Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:52:08 +0000] \"GET /api/universities? HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:52:08.270Z"}
+{"level":"info","message":{"duration":"2ms","method":"GET","status":304,"url":"/?"},"timestamp":"2024-12-22T20:52:08.270Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:52:09 +0000] \"GET /api/universities? HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:52:09.516Z"}
+{"level":"info","message":{"duration":"3ms","method":"GET","status":304,"url":"/?"},"timestamp":"2024-12-22T20:52:09.516Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:52:09 +0000] \"GET /api/universities? HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:52:09.538Z"}
+{"level":"info","message":{"duration":"2ms","method":"GET","status":304,"url":"/?"},"timestamp":"2024-12-22T20:52:09.538Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:52:10 +0000] \"GET /api/universities? HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:52:10.604Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","status":304,"url":"/?"},"timestamp":"2024-12-22T20:52:10.605Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:52:10 +0000] \"GET /api/universities? HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:52:10.732Z"}
+{"level":"info","message":{"duration":"3ms","method":"GET","status":304,"url":"/?"},"timestamp":"2024-12-22T20:52:10.732Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:52:11 +0000] \"GET /api/universities? HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:52:11.172Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","status":304,"url":"/?"},"timestamp":"2024-12-22T20:52:11.172Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:52:12 +0000] \"GET /api/universities? HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:52:12.166Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","status":304,"url":"/?"},"timestamp":"2024-12-22T20:52:12.167Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:52:12 +0000] \"GET /api/universities? HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:52:12.501Z"}
+{"level":"info","message":{"duration":"3ms","method":"GET","status":304,"url":"/?"},"timestamp":"2024-12-22T20:52:12.501Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:52:14 +0000] \"GET /api/universities? HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:52:14.590Z"}
+{"level":"info","message":{"duration":"3ms","method":"GET","status":304,"url":"/?"},"timestamp":"2024-12-22T20:52:14.591Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:52:14 +0000] \"GET /api/universities? HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:52:14.636Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","status":304,"url":"/?"},"timestamp":"2024-12-22T20:52:14.638Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:54:56 +0000] \"GET /api/status HTTP/1.1\" 200 231 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:54:56.367Z"}
+{"level":"info","message":{"duration":"9ms","method":"GET","status":200,"url":"/api/status"},"timestamp":"2024-12-22T20:54:56.369Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:56:14 +0000] \"GET /api/status HTTP/1.1\" 200 230 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:56:14.645Z"}
+{"level":"info","message":{"duration":"9ms","method":"GET","status":200,"url":"/api/status"},"timestamp":"2024-12-22T20:56:14.649Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:56:16 +0000] \"GET /api/universities? HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:56:16.502Z"}
+{"level":"info","message":{"duration":"16ms","method":"GET","status":304,"url":"/?"},"timestamp":"2024-12-22T20:56:16.503Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:57:20 +0000] \"GET /api/universities? HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:57:20.325Z"}
+{"level":"info","message":{"duration":"21ms","ip":"::1","method":"GET","path":"/","query":"{}","status":304,"userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"},"timestamp":"2024-12-22T20:57:20.327Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:57:22 +0000] \"GET /api/status HTTP/1.1\" 200 182 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:57:22.073Z"}
+{"level":"info","message":{"duration":"2ms","ip":"::1","method":"GET","path":"/api/status","query":"{}","status":200,"userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"},"timestamp":"2024-12-22T20:57:22.073Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:58:23 +0000] \"GET /api/universities? HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:58:23.249Z"}
+{"level":"info","message":{"duration":"20ms","method":"GET","status":304,"url":"/?"},"timestamp":"2024-12-22T20:58:23.252Z"}
+{"level":"info","message":"::1 - - [22/Dec/2024:20:58:26 +0000] \"GET /api/status HTTP/1.1\" 200 183 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","timestamp":"2024-12-22T20:58:26.721Z"}
+{"level":"info","message":{"duration":"1ms","method":"GET","status":200,"url":"/api/status"},"timestamp":"2024-12-22T20:58:26.722Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:04:41.596Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:05:25.388Z"}
+{"level":"info","message":{"duration":"0.016s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:07:08.141Z"},"timestamp":"2024-12-22T21:07:08.141Z"}
+{"level":"info","message":{"duration":"0.003s","ip":"::1","method":"GET","path":"/api/status","query":{},"status":404,"timestamp":"2024-12-22T21:07:09.819Z"},"timestamp":"2024-12-22T21:07:09.819Z"}
+{"level":"info","message":{"duration":"0.001s","ip":"::1","method":"GET","path":"/api/status","query":{},"status":404,"timestamp":"2024-12-22T21:07:10.846Z"},"timestamp":"2024-12-22T21:07:10.846Z"}
+{"level":"info","message":{"duration":"0.001s","ip":"::1","method":"GET","path":"/api/status","query":{},"status":404,"timestamp":"2024-12-22T21:07:11.030Z"},"timestamp":"2024-12-22T21:07:11.030Z"}
+{"level":"info","message":{"duration":"0s","ip":"::1","method":"GET","path":"/api/status","query":{},"status":404,"timestamp":"2024-12-22T21:07:11.230Z"},"timestamp":"2024-12-22T21:07:11.230Z"}
+{"level":"info","message":{"duration":"0.003s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:07:23.434Z"},"timestamp":"2024-12-22T21:07:23.434Z"}
+{"level":"info","message":{"duration":"0.003s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:07:25.081Z"},"timestamp":"2024-12-22T21:07:25.081Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:07:32.647Z"},"timestamp":"2024-12-22T21:07:32.647Z"}
+{"level":"info","message":{"duration":"0.007s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:08:56.862Z"},"timestamp":"2024-12-22T21:08:56.862Z"}
+{"level":"info","message":{"duration":"0.001s","ip":"::1","method":"GET","path":"/metrics","query":{},"status":404,"timestamp":"2024-12-22T21:09:04.065Z"},"timestamp":"2024-12-22T21:09:04.065Z"}
+{"level":"info","message":{"duration":"0.004s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:09:07.494Z"},"timestamp":"2024-12-22T21:09:07.494Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:09:30.927Z"}
+{"level":"info","message":{"duration":"0.017s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:09:49.651Z"},"timestamp":"2024-12-22T21:09:49.651Z"}
+{"level":"info","message":{"duration":"0.004s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:09:51.831Z"},"timestamp":"2024-12-22T21:09:51.831Z"}
+{"level":"info","message":{"duration":"0.004s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:09:53.637Z"},"timestamp":"2024-12-22T21:09:53.638Z"}
+{"level":"info","message":{"duration":"0.004s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:09:55.073Z"},"timestamp":"2024-12-22T21:09:55.074Z"}
+{"level":"info","message":{"duration":"0.006s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:09:56.114Z"},"timestamp":"2024-12-22T21:09:56.114Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:09:56.225Z"},"timestamp":"2024-12-22T21:09:56.225Z"}
+{"level":"info","message":{"duration":"0.006s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:09:58.032Z"},"timestamp":"2024-12-22T21:09:58.032Z"}
+{"level":"info","message":{"duration":"0.004s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:09:58.263Z"},"timestamp":"2024-12-22T21:09:58.263Z"}
+{"level":"info","message":{"duration":"0.006s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:09:59.081Z"},"timestamp":"2024-12-22T21:09:59.081Z"}
+{"level":"info","message":{"duration":"0.004s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:09:59.266Z"},"timestamp":"2024-12-22T21:09:59.266Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:10:00.374Z"},"timestamp":"2024-12-22T21:10:00.374Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:10:01.524Z"},"timestamp":"2024-12-22T21:10:01.525Z"}
+{"level":"info","message":{"duration":"0.003s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:10:03.368Z"},"timestamp":"2024-12-22T21:10:03.368Z"}
+{"level":"info","message":{"duration":"0.003s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:10:03.822Z"},"timestamp":"2024-12-22T21:10:03.822Z"}
+{"level":"info","message":{"duration":"0.003s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:10:03.922Z"},"timestamp":"2024-12-22T21:10:03.922Z"}
+{"level":"info","message":{"duration":"0.006s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:10:04.186Z"},"timestamp":"2024-12-22T21:10:04.186Z"}
+{"level":"info","message":{"duration":"0.003s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:10:04.304Z"},"timestamp":"2024-12-22T21:10:04.304Z"}
+{"level":"info","message":{"duration":"0.004s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:10:04.469Z"},"timestamp":"2024-12-22T21:10:04.469Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:10:05.158Z"},"timestamp":"2024-12-22T21:10:05.158Z"}
+{"level":"info","message":{"duration":"0.003s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:11:05.366Z"},"timestamp":"2024-12-22T21:11:05.366Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:11:07.052Z"},"timestamp":"2024-12-22T21:11:07.052Z"}
+{"level":"info","message":{"duration":"0.003s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:11:07.805Z"},"timestamp":"2024-12-22T21:11:07.805Z"}
+{"level":"info","message":{"duration":"0.004s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:11:08.180Z"},"timestamp":"2024-12-22T21:11:08.180Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:11:08.908Z"},"timestamp":"2024-12-22T21:11:08.908Z"}
+{"level":"info","message":{"duration":"0.004s","ip":"::1","method":"GET","path":"/","query":{},"status":200,"timestamp":"2024-12-22T21:11:15.851Z"},"timestamp":"2024-12-22T21:11:15.851Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:11:22.969Z"},"timestamp":"2024-12-22T21:11:22.969Z"}
+{"level":"info","message":{"duration":"0.003s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:11:23.680Z"},"timestamp":"2024-12-22T21:11:23.680Z"}
+{"level":"info","message":{"duration":"0.003s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:11:23.895Z"},"timestamp":"2024-12-22T21:11:23.895Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:11:24.086Z"},"timestamp":"2024-12-22T21:11:24.086Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:11:24.270Z"},"timestamp":"2024-12-22T21:11:24.270Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:11:24.470Z"},"timestamp":"2024-12-22T21:11:24.470Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:11:24.647Z"},"timestamp":"2024-12-22T21:11:24.647Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:11:24.807Z"},"timestamp":"2024-12-22T21:11:24.807Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:11:25.143Z"},"timestamp":"2024-12-22T21:11:25.143Z"}
+{"level":"info","message":{"duration":"0.003s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:11:25.327Z"},"timestamp":"2024-12-22T21:11:25.327Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:11:25.502Z"},"timestamp":"2024-12-22T21:11:25.502Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:11:25.679Z"},"timestamp":"2024-12-22T21:11:25.679Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:11:25.886Z"},"timestamp":"2024-12-22T21:11:25.886Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:11:26.047Z"},"timestamp":"2024-12-22T21:11:26.047Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:11:26.206Z"},"timestamp":"2024-12-22T21:11:26.206Z"}
+{"level":"info","message":{"duration":"0.003s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:11:27.982Z"},"timestamp":"2024-12-22T21:11:27.982Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:11:35.806Z"},"timestamp":"2024-12-22T21:11:35.806Z"}
+{"level":"info","message":{"duration":"0.003s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:26:59.014Z"},"timestamp":"2024-12-22T21:26:59.014Z"}
+{"level":"info","message":{"duration":"0.003s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:27:11.062Z"},"timestamp":"2024-12-22T21:27:11.062Z"}
+{"level":"info","message":{"duration":"0.003s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:27:11.587Z"},"timestamp":"2024-12-22T21:27:11.587Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:27:11.935Z"},"timestamp":"2024-12-22T21:27:11.935Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:27:12.169Z"},"timestamp":"2024-12-22T21:27:12.169Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:27:14.880Z"},"timestamp":"2024-12-22T21:27:14.880Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:27:47.767Z"},"timestamp":"2024-12-22T21:27:47.767Z"}
+{"level":"info","message":{"duration":"0.003s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:28:04.266Z"},"timestamp":"2024-12-22T21:28:04.266Z"}
+{"level":"info","message":{"duration":"0.003s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:28:08.051Z"},"timestamp":"2024-12-22T21:28:08.051Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:28:13.832Z"},"timestamp":"2024-12-22T21:28:13.832Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:28:13.936Z"},"timestamp":"2024-12-22T21:28:13.936Z"}
+{"level":"info","message":{"duration":"0.003s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:28:34.816Z"},"timestamp":"2024-12-22T21:28:34.816Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:29:28.226Z"},"timestamp":"2024-12-22T21:29:28.226Z"}
+{"level":"info","message":{"duration":"0.003s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:29:28.995Z"},"timestamp":"2024-12-22T21:29:28.995Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:29:29.631Z"},"timestamp":"2024-12-22T21:29:29.631Z"}
+{"level":"info","message":{"duration":"0.003s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:29:29.642Z"},"timestamp":"2024-12-22T21:29:29.642Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::ffff:127.0.0.1","method":"GET","path":"/","query":{},"status":200,"timestamp":"2024-12-22T21:30:13.843Z"},"timestamp":"2024-12-22T21:30:13.843Z"}
+{"level":"info","message":{"duration":"0.003s","ip":"::ffff:127.0.0.1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:30:19.443Z"},"timestamp":"2024-12-22T21:30:19.443Z"}
+{"level":"info","message":{"duration":"0.003s","ip":"::ffff:127.0.0.1","method":"GET","path":"/","query":{"search":"A"},"status":200,"timestamp":"2024-12-22T21:30:33.191Z"},"timestamp":"2024-12-22T21:30:33.191Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::ffff:127.0.0.1","method":"GET","path":"/","query":{"search":"AH"},"status":200,"timestamp":"2024-12-22T21:30:34.380Z"},"timestamp":"2024-12-22T21:30:34.380Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::ffff:127.0.0.1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:30:37.083Z"},"timestamp":"2024-12-22T21:30:37.083Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::ffff:127.0.0.1","method":"GET","path":"/","query":{"search":"a"},"status":200,"timestamp":"2024-12-22T21:30:38.124Z"},"timestamp":"2024-12-22T21:30:38.124Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::ffff:127.0.0.1","method":"GET","path":"/","query":{"search":"aH"},"status":200,"timestamp":"2024-12-22T21:30:39.075Z"},"timestamp":"2024-12-22T21:30:39.075Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::ffff:127.0.0.1","method":"GET","path":"/","query":{"search":"A"},"status":304,"timestamp":"2024-12-22T21:30:43.220Z"},"timestamp":"2024-12-22T21:30:43.220Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::ffff:127.0.0.1","method":"GET","path":"/","query":{"search":"Ah"},"status":200,"timestamp":"2024-12-22T21:30:43.859Z"},"timestamp":"2024-12-22T21:30:43.859Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::ffff:127.0.0.1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:30:45.186Z"},"timestamp":"2024-12-22T21:30:45.186Z"}
+{"level":"info","message":{"duration":"0.003s","ip":"::ffff:127.0.0.1","method":"GET","path":"/","query":{"search":"C"},"status":200,"timestamp":"2024-12-22T21:30:45.612Z"},"timestamp":"2024-12-22T21:30:45.612Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::ffff:127.0.0.1","method":"GET","path":"/","query":{"search":"Ca"},"status":200,"timestamp":"2024-12-22T21:30:46.094Z"},"timestamp":"2024-12-22T21:30:46.094Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::ffff:127.0.0.1","method":"GET","path":"/","query":{"search":"Cai"},"status":200,"timestamp":"2024-12-22T21:30:50.523Z"},"timestamp":"2024-12-22T21:30:50.523Z"}
+{"level":"info","message":{"duration":"0.003s","ip":"::ffff:127.0.0.1","method":"GET","path":"/","query":{"search":"Cair"},"status":200,"timestamp":"2024-12-22T21:30:50.588Z"},"timestamp":"2024-12-22T21:30:50.588Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::ffff:127.0.0.1","method":"GET","path":"/","query":{"search":"Cairo"},"status":200,"timestamp":"2024-12-22T21:30:50.905Z"},"timestamp":"2024-12-22T21:30:50.905Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::ffff:127.0.0.1","method":"GET","path":"/","query":{"search":"Ca"},"status":304,"timestamp":"2024-12-22T21:30:52.077Z"},"timestamp":"2024-12-22T21:30:52.077Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::ffff:127.0.0.1","method":"GET","path":"/","query":{"search":"C"},"status":304,"timestamp":"2024-12-22T21:30:52.108Z"},"timestamp":"2024-12-22T21:30:52.109Z"}
+{"level":"info","message":{"duration":"0.003s","ip":"::ffff:127.0.0.1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T21:30:52.139Z"},"timestamp":"2024-12-22T21:30:52.139Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:33:36.722Z"}
+{"level":"info","message":{"duration":"0.004s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmIZrJ","transport":"polling"},"status":404,"timestamp":"2024-12-22T21:33:37.508Z"},"timestamp":"2024-12-22T21:33:37.508Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:34:18.677Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmIk71","transport":"polling"},"status":404,"timestamp":"2024-12-22T21:34:19.603Z"},"timestamp":"2024-12-22T21:34:19.603Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:34:33.251Z"}
+{"level":"info","message":{"duration":"0.008s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmInYU","transport":"polling"},"status":404,"timestamp":"2024-12-22T21:34:33.659Z"},"timestamp":"2024-12-22T21:34:33.659Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:35:11.038Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmIzOb","transport":"polling"},"status":404,"timestamp":"2024-12-22T21:35:22.168Z"},"timestamp":"2024-12-22T21:35:22.168Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:35:28.452Z"}
+{"level":"info","message":{"duration":"0.004s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmI_6X","transport":"polling"},"status":404,"timestamp":"2024-12-22T21:35:29.203Z"},"timestamp":"2024-12-22T21:35:29.204Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:35:42.829Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmJ2dG","transport":"polling"},"status":404,"timestamp":"2024-12-22T21:35:43.589Z"},"timestamp":"2024-12-22T21:35:43.589Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:35:45.288Z"}
+{"level":"info","message":{"duration":"0.006s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmJ33N","transport":"polling"},"status":404,"timestamp":"2024-12-22T21:35:45.388Z"},"timestamp":"2024-12-22T21:35:45.388Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:38:41.927Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:39:36.883Z"}
+{"level":"info","message":{"duration":"0.004s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmJxkm","transport":"polling"},"status":404,"timestamp":"2024-12-22T21:39:37.538Z"},"timestamp":"2024-12-22T21:39:37.538Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:42:48.549Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:43:13.048Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:43:17.425Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmKr4B","transport":"polling"},"status":404,"timestamp":"2024-12-22T21:43:32.383Z"},"timestamp":"2024-12-22T21:43:32.383Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:44:09.138Z"}
+{"level":"info","message":{"duration":"0.004s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmL0_1","transport":"polling"},"status":404,"timestamp":"2024-12-22T21:44:21.203Z"},"timestamp":"2024-12-22T21:44:21.203Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:44:29.030Z"}
+{"level":"info","message":{"duration":"0.006s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmL30_","transport":"polling"},"status":404,"timestamp":"2024-12-22T21:44:29.523Z"},"timestamp":"2024-12-22T21:44:29.523Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:44:32.927Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:44:34.798Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:44:36.618Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:44:37.670Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:44:38.832Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:44:44.514Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:44:49.091Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:44:51.864Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:44:55.527Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmLEh-","transport":"polling"},"status":404,"timestamp":"2024-12-22T21:45:17.328Z"},"timestamp":"2024-12-22T21:45:17.329Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:45:48.730Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmLMb2","transport":"polling"},"status":404,"timestamp":"2024-12-22T21:45:49.655Z"},"timestamp":"2024-12-22T21:45:49.655Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:45:56.639Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:46:07.414Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:46:12.021Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:46:17.089Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:46:19.974Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:47:46.580Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmLpUy","transport":"polling"},"status":404,"timestamp":"2024-12-22T21:47:48.045Z"},"timestamp":"2024-12-22T21:47:48.045Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:47:51.068Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmLqjN","transport":"polling"},"status":404,"timestamp":"2024-12-22T21:47:53.066Z"},"timestamp":"2024-12-22T21:47:53.066Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:49:36.153Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:49:39.455Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:49:40.577Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:49:45.369Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:49:49.365Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:49:51.648Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:50:00.210Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:50:01.563Z"}
+{"level":"info","message":{"duration":"0.004s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmMNgY","transport":"polling"},"status":404,"timestamp":"2024-12-22T21:50:16.242Z"},"timestamp":"2024-12-22T21:50:16.242Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:54:36.790Z"}
+{"level":"info","message":{"duration":"0.004s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmNOQZ","transport":"polling"},"status":404,"timestamp":"2024-12-22T21:54:41.460Z"},"timestamp":"2024-12-22T21:54:41.460Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:54:56.331Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmNSEo","transport":"polling"},"status":404,"timestamp":"2024-12-22T21:54:57.092Z"},"timestamp":"2024-12-22T21:54:57.092Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:55:48.786Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmNeuG","transport":"polling"},"status":404,"timestamp":"2024-12-22T21:55:48.906Z"},"timestamp":"2024-12-22T21:55:48.906Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:56:01.536Z"}
+{"level":"info","message":{"duration":"0.006s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmNiAZ","transport":"polling"},"status":404,"timestamp":"2024-12-22T21:56:02.358Z"},"timestamp":"2024-12-22T21:56:02.358Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:56:03.650Z"}
+{"level":"info","message":{"duration":"0.004s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmNive","transport":"polling"},"status":404,"timestamp":"2024-12-22T21:56:05.368Z"},"timestamp":"2024-12-22T21:56:05.368Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:56:32.357Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:56:35.478Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmNrT1","transport":"polling"},"status":404,"timestamp":"2024-12-22T21:56:40.405Z"},"timestamp":"2024-12-22T21:56:40.405Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:57:43.008Z"}
+{"level":"info","message":{"duration":"0.004s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmO4wP","transport":"polling"},"status":404,"timestamp":"2024-12-22T21:57:43.721Z"},"timestamp":"2024-12-22T21:57:43.722Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:57:46.059Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T21:57:47.453Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmO68p","transport":"polling"},"status":404,"timestamp":"2024-12-22T21:57:48.742Z"},"timestamp":"2024-12-22T21:57:48.742Z"}
+{"level":"info","message":{"duration":"0.015s","ip":"::ffff:127.0.0.1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T22:00:50.680Z"},"timestamp":"2024-12-22T22:00:50.680Z"}
+{"level":"info","message":{"duration":"0.004s","ip":"::ffff:127.0.0.1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T22:00:53.571Z"},"timestamp":"2024-12-22T22:00:53.571Z"}
+{"level":"info","message":{"duration":"0.008s","ip":"::ffff:127.0.0.1","method":"POST","path":"/api/auth/login","query":{},"status":404,"timestamp":"2024-12-22T22:09:57.533Z"},"timestamp":"2024-12-22T22:09:57.533Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::ffff:127.0.0.1","method":"POST","path":"/api/auth/login","query":{},"status":404,"timestamp":"2024-12-22T22:10:14.274Z"},"timestamp":"2024-12-22T22:10:14.274Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::ffff:127.0.0.1","method":"POST","path":"/api/auth/login","query":{},"status":404,"timestamp":"2024-12-22T22:11:08.914Z"},"timestamp":"2024-12-22T22:11:08.914Z"}
+{"level":"info","message":{"duration":"0.004s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T22:11:41.297Z"},"timestamp":"2024-12-22T22:11:41.297Z"}
+{"level":"info","message":{"duration":"0.004s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T22:25:25.041Z"},"timestamp":"2024-12-22T22:25:25.041Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T22:25:44.357Z"},"timestamp":"2024-12-22T22:25:44.357Z"}
+{"level":"info","message":{"duration":"0.004s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T22:26:53.308Z"},"timestamp":"2024-12-22T22:26:53.308Z"}
+{"level":"info","message":{"duration":"0.004s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T22:28:27.612Z"},"timestamp":"2024-12-22T22:28:27.612Z"}
+{"level":"info","message":{"duration":"0.003s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T22:28:58.912Z"},"timestamp":"2024-12-22T22:28:58.912Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T22:29:09.296Z"},"timestamp":"2024-12-22T22:29:09.296Z"}
+{"level":"info","message":{"duration":"0.003s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T22:29:19.409Z"},"timestamp":"2024-12-22T22:29:19.410Z"}
+{"level":"info","message":{"duration":"0s","ip":"::ffff:127.0.0.1","method":"POST","path":"/api/auth/login","query":{},"status":404,"timestamp":"2024-12-22T22:29:38.111Z"},"timestamp":"2024-12-22T22:29:38.111Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:31:07.861Z"}
+{"level":"info","message":{"duration":"0.006s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmVkGL","transport":"polling"},"status":404,"timestamp":"2024-12-22T22:31:08.073Z"},"timestamp":"2024-12-22T22:31:08.073Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:31:31.173Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmVq2g","transport":"polling"},"status":404,"timestamp":"2024-12-22T22:31:31.774Z"},"timestamp":"2024-12-22T22:31:31.774Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:31:35.640Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmVrA9","transport":"polling"},"status":404,"timestamp":"2024-12-22T22:31:36.347Z"},"timestamp":"2024-12-22T22:31:36.347Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:32:10.654Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmVzZe","transport":"polling"},"status":404,"timestamp":"2024-12-22T22:32:10.748Z"},"timestamp":"2024-12-22T22:32:10.748Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:32:25.094Z"}
+{"level":"info","message":{"duration":"0.004s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmW1Pk","transport":"polling"},"status":404,"timestamp":"2024-12-22T22:32:26.497Z"},"timestamp":"2024-12-22T22:32:26.497Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:32:28.192Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:32:29.432Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmW2eB","transport":"polling"},"status":404,"timestamp":"2024-12-22T22:32:31.518Z"},"timestamp":"2024-12-22T22:32:31.518Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:32:36.763Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:32:39.557Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:32:41.398Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmW54n","transport":"polling"},"status":404,"timestamp":"2024-12-22T22:32:41.554Z"},"timestamp":"2024-12-22T22:32:41.554Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:32:44.044Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:32:46.506Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmW6JS","transport":"polling"},"status":404,"timestamp":"2024-12-22T22:32:46.575Z"},"timestamp":"2024-12-22T22:32:46.576Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:32:49.201Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:32:50.755Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:32:51.861Z"}
+{"level":"info","message":{"duration":"0.007s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmW8m3","transport":"polling"},"status":404,"timestamp":"2024-12-22T22:32:56.602Z"},"timestamp":"2024-12-22T22:32:56.602Z"}
+{"level":"info","message":{"duration":"0.009s","ip":"::ffff:127.0.0.1","method":"POST","path":"/api/auth/login","query":{},"status":404,"timestamp":"2024-12-22T22:32:56.723Z"},"timestamp":"2024-12-22T22:32:56.723Z"}
+{"level":"info","message":{"duration":"0.001s","ip":"::ffff:127.0.0.1","method":"GET","path":"/api/auth/login","query":{},"status":404,"timestamp":"2024-12-22T22:33:27.282Z"},"timestamp":"2024-12-22T22:33:27.282Z"}
+{"level":"info","message":{"duration":"0.001s","ip":"::ffff:127.0.0.1","method":"GET","path":"/api/login","query":{},"status":404,"timestamp":"2024-12-22T22:35:17.723Z"},"timestamp":"2024-12-22T22:35:17.723Z"}
+{"level":"info","message":{"duration":"0.108s","ip":"::ffff:127.0.0.1","method":"POST","path":"/","query":{},"status":200,"timestamp":"2024-12-22T22:35:24.026Z"},"timestamp":"2024-12-22T22:35:24.026Z"}
+{"level":"info","message":{"duration":"0.089s","ip":"::ffff:127.0.0.1","method":"POST","path":"/","query":{},"status":200,"timestamp":"2024-12-22T22:35:34.352Z"},"timestamp":"2024-12-22T22:35:34.352Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:35:57.855Z"}
+{"level":"info","message":{"duration":"0.006s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmWrIE","transport":"polling"},"status":404,"timestamp":"2024-12-22T22:35:59.011Z"},"timestamp":"2024-12-22T22:35:59.011Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:36:00.988Z"}
+{"level":"info","message":{"duration":"0.006s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmWrnU","transport":"polling"},"status":404,"timestamp":"2024-12-22T22:36:01.025Z"},"timestamp":"2024-12-22T22:36:01.025Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:36:16.373Z"}
+{"level":"info","message":{"duration":"0.004s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmWwf-","transport":"polling"},"status":404,"timestamp":"2024-12-22T22:36:21.010Z"},"timestamp":"2024-12-22T22:36:21.010Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:36:22.740Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmWy7k","transport":"polling"},"status":404,"timestamp":"2024-12-22T22:36:27.011Z"},"timestamp":"2024-12-22T22:36:27.011Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::ffff:127.0.0.1","method":"GET","path":"/api/login","query":{},"status":404,"timestamp":"2024-12-22T22:36:33.941Z"},"timestamp":"2024-12-22T22:36:33.941Z"}
+{"level":"info","message":{"duration":"0.117s","ip":"::ffff:127.0.0.1","method":"POST","path":"/","query":{},"status":200,"timestamp":"2024-12-22T22:37:13.290Z"},"timestamp":"2024-12-22T22:37:13.290Z"}
+{"level":"info","message":{"duration":"0.09s","ip":"::ffff:127.0.0.1","method":"POST","path":"/","query":{},"status":401,"timestamp":"2024-12-22T22:37:16.431Z"},"timestamp":"2024-12-22T22:37:16.431Z"}
+{"level":"info","message":{"duration":"0.089s","ip":"::ffff:127.0.0.1","method":"POST","path":"/","query":{},"status":401,"timestamp":"2024-12-22T22:37:22.022Z"},"timestamp":"2024-12-22T22:37:22.022Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:37:39.061Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:37:40.398Z"}
+{"level":"info","message":{"duration":"0.006s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmXEhE","transport":"polling"},"status":404,"timestamp":"2024-12-22T22:37:43.011Z"},"timestamp":"2024-12-22T22:37:43.011Z"}
+{"level":"info","message":{"duration":"0.143s","ip":"::ffff:127.0.0.1","method":"POST","path":"/","query":{},"status":200,"timestamp":"2024-12-22T22:37:53.081Z"},"timestamp":"2024-12-22T22:37:53.081Z"}
+{"level":"info","message":{"duration":"0.086s","ip":"::ffff:127.0.0.1","method":"POST","path":"/","query":{},"status":401,"timestamp":"2024-12-22T22:40:00.036Z"},"timestamp":"2024-12-22T22:40:00.036Z"}
+{"level":"info","message":{"duration":"0.092s","ip":"::ffff:127.0.0.1","method":"POST","path":"/","query":{},"status":200,"timestamp":"2024-12-22T22:40:07.342Z"},"timestamp":"2024-12-22T22:40:07.342Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::ffff:127.0.0.1","method":"POST","path":"/api/auth","query":{},"status":404,"timestamp":"2024-12-22T22:41:32.716Z"},"timestamp":"2024-12-22T22:41:32.716Z"}
+{"level":"info","message":{"duration":"0.001s","ip":"::ffff:127.0.0.1","method":"POST","path":"/api/auth","query":{},"status":404,"timestamp":"2024-12-22T22:41:33.658Z"},"timestamp":"2024-12-22T22:41:33.658Z"}
+{"level":"info","message":{"duration":"0.001s","ip":"::ffff:127.0.0.1","method":"POST","path":"/api/auth","query":{},"status":404,"timestamp":"2024-12-22T22:41:33.817Z"},"timestamp":"2024-12-22T22:41:33.817Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::ffff:127.0.0.1","method":"POST","path":"/api/auth","query":{},"status":404,"timestamp":"2024-12-22T22:42:34.323Z"},"timestamp":"2024-12-22T22:42:34.323Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:43:02.084Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmYSpE","transport":"polling"},"status":404,"timestamp":"2024-12-22T22:43:03.010Z"},"timestamp":"2024-12-22T22:43:03.010Z"}
+{"level":"info","message":{"duration":"0.012s","ip":"::ffff:127.0.0.1","method":"POST","path":"/api/auth","query":{},"status":404,"timestamp":"2024-12-22T22:43:25.746Z"},"timestamp":"2024-12-22T22:43:25.747Z"}
+{"level":"info","message":{"duration":"0.001s","ip":"::ffff:127.0.0.1","method":"POST","path":"/api/auth","query":{},"status":404,"timestamp":"2024-12-22T22:43:33.637Z"},"timestamp":"2024-12-22T22:43:33.637Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:44:23.424Z"}
+{"level":"info","message":{"duration":"0.006s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmYmqU","transport":"polling"},"status":404,"timestamp":"2024-12-22T22:44:25.012Z"},"timestamp":"2024-12-22T22:44:25.012Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:44:39.950Z"}
+{"level":"info","message":{"duration":"0.006s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmYqkU","transport":"polling"},"status":404,"timestamp":"2024-12-22T22:44:41.011Z"},"timestamp":"2024-12-22T22:44:41.011Z"}
+{"level":"info","message":{"duration":"0.146s","ip":"::ffff:127.0.0.1","method":"POST","path":"/","query":{},"status":200,"timestamp":"2024-12-22T22:44:43.816Z"},"timestamp":"2024-12-22T22:44:43.816Z"}
+{"level":"info","message":{"duration":"0.091s","ip":"::ffff:127.0.0.1","method":"POST","path":"/","query":{},"status":200,"timestamp":"2024-12-22T22:44:59.626Z"},"timestamp":"2024-12-22T22:44:59.626Z"}
+{"level":"info","message":{"duration":"0.093s","ip":"::ffff:127.0.0.1","method":"POST","path":"/","query":{},"status":200,"timestamp":"2024-12-22T22:46:04.690Z"},"timestamp":"2024-12-22T22:46:04.690Z"}
+{"level":"info","message":{"duration":"0.09s","ip":"::ffff:127.0.0.1","method":"POST","path":"/","query":{},"status":200,"timestamp":"2024-12-22T22:46:04.785Z"},"timestamp":"2024-12-22T22:46:04.785Z"}
+{"level":"info","message":{"duration":"0.009s","ip":"::1","method":"GET","path":"/","query":{},"status":200,"timestamp":"2024-12-22T22:46:04.811Z"},"timestamp":"2024-12-22T22:46:04.811Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/","query":{},"status":200,"timestamp":"2024-12-22T22:46:12.044Z"},"timestamp":"2024-12-22T22:46:12.044Z"}
+{"level":"info","message":{"duration":"0.088s","ip":"::ffff:127.0.0.1","method":"POST","path":"/","query":{},"status":200,"timestamp":"2024-12-22T22:46:25.950Z"},"timestamp":"2024-12-22T22:46:25.950Z"}
+{"level":"info","message":{"duration":"0.089s","ip":"::ffff:127.0.0.1","method":"POST","path":"/","query":{},"status":200,"timestamp":"2024-12-22T22:46:26.045Z"},"timestamp":"2024-12-22T22:46:26.045Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/","query":{},"status":200,"timestamp":"2024-12-22T22:46:26.066Z"},"timestamp":"2024-12-22T22:46:26.066Z"}
+{"level":"info","message":{"duration":"0.001s","ip":"::1","method":"OPTIONS","path":"/api/universities/6761fb128ce4aa0e8282ebf3","query":{},"status":204,"timestamp":"2024-12-22T22:46:35.629Z"},"timestamp":"2024-12-22T22:46:35.629Z"}
+{"level":"info","message":{"duration":"0.009s","ip":"::1","method":"PUT","path":"/6761fb128ce4aa0e8282ebf3","query":{},"status":200,"timestamp":"2024-12-22T22:46:35.639Z"},"timestamp":"2024-12-22T22:46:35.639Z"}
+{"level":"info","message":{"duration":"0.004s","ip":"::1","method":"GET","path":"/","query":{},"status":200,"timestamp":"2024-12-22T22:46:35.647Z"},"timestamp":"2024-12-22T22:46:35.647Z"}
+{"level":"info","message":{"duration":"0.003s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T22:46:44.707Z"},"timestamp":"2024-12-22T22:46:44.707Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:47:21.049Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmZS26","transport":"polling"},"status":404,"timestamp":"2024-12-22T22:47:22.012Z"},"timestamp":"2024-12-22T22:47:22.012Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:50:47.621Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmaF3k","transport":"polling"},"status":404,"timestamp":"2024-12-22T22:50:51.010Z"},"timestamp":"2024-12-22T22:50:51.010Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:50:56.333Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmaGXU","transport":"polling"},"status":404,"timestamp":"2024-12-22T22:50:57.010Z"},"timestamp":"2024-12-22T22:50:57.010Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:51:01.537Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmaH_E","transport":"polling"},"status":404,"timestamp":"2024-12-22T22:51:03.010Z"},"timestamp":"2024-12-22T22:51:03.010Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:51:11.966Z"}
+{"level":"info","message":{"duration":"0.004s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmaKRU","transport":"polling"},"status":404,"timestamp":"2024-12-22T22:51:13.010Z"},"timestamp":"2024-12-22T22:51:13.010Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:57:14.939Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:57:16.268Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmbjYc","transport":"polling"},"status":404,"timestamp":"2024-12-22T22:57:18.010Z"},"timestamp":"2024-12-22T22:57:18.010Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:57:20.190Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:57:21.891Z"}
+{"level":"info","message":{"duration":"0.006s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmbkmk","transport":"polling"},"status":404,"timestamp":"2024-12-22T22:57:23.016Z"},"timestamp":"2024-12-22T22:57:23.016Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:57:26.025Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmbmEU","transport":"polling"},"status":404,"timestamp":"2024-12-22T22:57:29.010Z"},"timestamp":"2024-12-22T22:57:29.010Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:57:31.473Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:57:33.959Z"}
+{"level":"info","message":{"duration":"0.007s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmbniE","transport":"polling"},"status":404,"timestamp":"2024-12-22T22:57:35.012Z"},"timestamp":"2024-12-22T22:57:35.013Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T22:57:35.627Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmbp9-","transport":"polling"},"status":404,"timestamp":"2024-12-22T22:57:41.009Z"},"timestamp":"2024-12-22T22:57:41.009Z"}
+{"level":"info","message":{"duration":"0.127s","ip":"::ffff:127.0.0.1","method":"POST","path":"/","query":{},"status":200,"timestamp":"2024-12-22T23:02:39.465Z"},"timestamp":"2024-12-22T23:02:39.465Z"}
+{"level":"info","message":{"duration":"0.092s","ip":"::ffff:127.0.0.1","method":"POST","path":"/","query":{},"status":200,"timestamp":"2024-12-22T23:02:39.564Z"},"timestamp":"2024-12-22T23:02:39.564Z"}
+{"level":"info","message":{"duration":"0.009s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T23:02:39.589Z"},"timestamp":"2024-12-22T23:02:39.589Z"}
+{"level":"info","message":{"duration":"0.008s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T23:03:53.927Z"},"timestamp":"2024-12-22T23:03:53.927Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T23:05:16.947Z"}
+{"level":"info","message":{"duration":"0.006s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmdYkc","transport":"polling"},"status":404,"timestamp":"2024-12-22T23:05:18.012Z"},"timestamp":"2024-12-22T23:05:18.012Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T23:05:18.726Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmdZTU","transport":"polling"},"status":404,"timestamp":"2024-12-22T23:05:21.011Z"},"timestamp":"2024-12-22T23:05:21.011Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T23:05:26.445Z"}
+{"level":"info","message":{"duration":"0.008s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmdaxE","transport":"polling"},"status":404,"timestamp":"2024-12-22T23:05:27.017Z"},"timestamp":"2024-12-22T23:05:27.017Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T23:05:35.069Z"}
+{"level":"info","message":{"duration":"0.006s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmdd7s","transport":"polling"},"status":404,"timestamp":"2024-12-22T23:05:36.012Z"},"timestamp":"2024-12-22T23:05:36.012Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T23:05:40.261Z"}
+{"level":"info","message":{"duration":"0.007s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmdf4s","transport":"polling"},"status":404,"timestamp":"2024-12-22T23:05:44.015Z"},"timestamp":"2024-12-22T23:05:44.016Z"}
+{"level":"info","message":{"duration":"0.023s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T23:06:03.675Z"},"timestamp":"2024-12-22T23:06:03.675Z"}
+{"level":"info","message":{"duration":"0.006s","ip":"::1","method":"GET","path":"/","query":{},"status":200,"timestamp":"2024-12-22T23:06:07.726Z"},"timestamp":"2024-12-22T23:06:07.726Z"}
+{"level":"info","message":{"duration":"0.002s","ip":"::1","method":"GET","path":"/backup/manual","query":{},"status":404,"timestamp":"2024-12-22T23:06:16.795Z"},"timestamp":"2024-12-22T23:06:16.795Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T23:06:42.443Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T23:06:43.533Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T23:06:44.927Z"}
+{"level":"info","message":{"duration":"0.008s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmduDc","transport":"polling"},"status":404,"timestamp":"2024-12-22T23:06:46.018Z"},"timestamp":"2024-12-22T23:06:46.018Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T23:06:47.359Z"}
+{"level":"info","message":{"duration":"0.004s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmdvC6","transport":"polling"},"status":404,"timestamp":"2024-12-22T23:06:50.010Z"},"timestamp":"2024-12-22T23:06:50.010Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T23:06:56.408Z"}
+{"level":"info","message":{"duration":"0.098s","ip":"::1","method":"GET","path":"/manual","query":{},"status":500,"timestamp":"2024-12-22T23:06:57.435Z"},"timestamp":"2024-12-22T23:06:57.435Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T23:07:36.238Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFme4gU","transport":"polling"},"status":404,"timestamp":"2024-12-22T23:07:37.011Z"},"timestamp":"2024-12-22T23:07:37.011Z"}
+{"level":"info","message":{"duration":"0.035s","ip":"::1","method":"GET","path":"/manual","query":{},"status":200,"timestamp":"2024-12-22T23:07:44.160Z"},"timestamp":"2024-12-22T23:07:44.160Z"}
+{"level":"info","message":{"duration":"0.015s","ip":"::1","method":"GET","path":"/manual","query":{},"status":304,"timestamp":"2024-12-22T23:09:47.908Z"},"timestamp":"2024-12-22T23:09:47.909Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T23:10:02.022Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmeeJk","transport":"polling"},"status":404,"timestamp":"2024-12-22T23:10:03.011Z"},"timestamp":"2024-12-22T23:10:03.012Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T23:10:23.471Z"}
+{"level":"info","message":{"duration":"0.007s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmejRs","transport":"polling"},"status":404,"timestamp":"2024-12-22T23:10:24.019Z"},"timestamp":"2024-12-22T23:10:24.019Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T23:10:24.991Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmejx6","transport":"polling"},"status":404,"timestamp":"2024-12-22T23:10:26.014Z"},"timestamp":"2024-12-22T23:10:26.014Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T23:10:27.198Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T23:10:28.758Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmekvc","transport":"polling"},"status":404,"timestamp":"2024-12-22T23:10:30.012Z"},"timestamp":"2024-12-22T23:10:30.012Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T23:10:30.810Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmemNM","transport":"polling"},"status":404,"timestamp":"2024-12-22T23:10:36.012Z"},"timestamp":"2024-12-22T23:10:36.012Z"}
+{"level":"info","message":{"duration":"0.024s","ip":"::1","method":"GET","path":"/manual","query":{},"status":304,"timestamp":"2024-12-22T23:10:40.154Z"},"timestamp":"2024-12-22T23:10:40.154Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T23:11:39.556Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmf0E-","transport":"polling"},"status":404,"timestamp":"2024-12-22T23:11:41.010Z"},"timestamp":"2024-12-22T23:11:41.010Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T23:11:52.456Z"}
+{"level":"info","message":{"duration":"0.007s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmf3AU","transport":"polling"},"status":404,"timestamp":"2024-12-22T23:11:53.014Z"},"timestamp":"2024-12-22T23:11:53.014Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T23:11:54.371Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmf3vM","transport":"polling"},"status":404,"timestamp":"2024-12-22T23:11:56.013Z"},"timestamp":"2024-12-22T23:11:56.013Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T23:11:57.128Z"}
+{"level":"info","message":{"duration":"0.004s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmf4eE","transport":"polling"},"status":404,"timestamp":"2024-12-22T23:11:59.012Z"},"timestamp":"2024-12-22T23:11:59.012Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T23:12:00.433Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T23:12:03.147Z"}
+{"level":"info","message":{"duration":"0.008s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmf5sM","transport":"polling"},"status":404,"timestamp":"2024-12-22T23:12:04.013Z"},"timestamp":"2024-12-22T23:12:04.013Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T23:13:12.290Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T23:13:43.556Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/socket.io/","query":{"EIO":"3","t":"PFmfUm6","transport":"polling"},"status":404,"timestamp":"2024-12-22T23:13:46.009Z"},"timestamp":"2024-12-22T23:13:46.009Z"}
+{"level":"info","message":{"duration":"0.023s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T23:13:48.496Z"},"timestamp":"2024-12-22T23:13:48.496Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2024-12-22T23:15:31.229Z"}
+{"level":"info","message":{"duration":"0.02s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T23:15:46.398Z"},"timestamp":"2024-12-22T23:15:46.398Z"}
+{"level":"info","message":{"duration":"1.025s","ip":"::1","method":"GET","path":"/manual","query":{},"status":500,"timestamp":"2024-12-22T23:15:52.224Z"},"timestamp":"2024-12-22T23:15:52.224Z"}
+{"level":"info","message":{"duration":"0.005s","ip":"::1","method":"GET","path":"/","query":{},"status":304,"timestamp":"2024-12-22T23:17:28.926Z"},"timestamp":"2024-12-22T23:17:28.926Z"}

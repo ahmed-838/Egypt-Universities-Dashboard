@@ -1,4 +1,4 @@
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const User = require('../models/User');
 
 // دالة لتشفير كلمة المرور
@@ -14,7 +14,7 @@ const hashPassword = async (password) => {
     }
 };
 
-// createUser("loay@admin.com", "1111@A2222");
+// createUser("ahmed@admin.com", "1122");
 // دالة لإنشاء مستخدم جديد
 const createUser = async (email, plainPassword) => {
     try {

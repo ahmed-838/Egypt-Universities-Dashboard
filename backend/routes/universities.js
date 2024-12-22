@@ -4,9 +4,36 @@ const Faculty = require('../models/Faculty');
 
 router.get('/', async (req, res) => {
     try {
-        const faculties = await Faculty.find();
+        const { type, degreeType, tuitionMin, tuitionMax, search } = req.query;
+        
+        let query = {};
+        
+        if (type) {
+            query.type = type;
+        }
+        
+        if (degreeType) {
+            query.degreeType = degreeType;
+        }
+        
+        if (tuitionMin || tuitionMax) {
+            query.tuition = {};
+            if (tuitionMin) query.tuition.$gte = Number(tuitionMin);
+            if (tuitionMax) query.tuition.$lte = Number(tuitionMax);
+        }
+        
+        if (search) {
+            query.$or = [
+                { name: { $regex: search, $options: 'i' } },
+                { university_name: { $regex: search, $options: 'i' } },
+                { description: { $regex: search, $options: 'i' } },
+                { departments: { $elemMatch: { $regex: search, $options: 'i' } } }            ];
+        }
+
+        const faculties = await Faculty.find(query);
         res.json({ faculties });
     } catch (error) {
+        console.error('Search error:', error);
         res.status(500).json({ message: error.message });
     }
 });

@@ -7,4 +7,8 @@ export function useAuth() {
     throw new Error('useAuth must be used within an AuthProvider');
   }
   return context;
-} 
+}
+
+const login = async (email: string, password: string) => {
+  // منطق تسجيل الدخول
+}; 

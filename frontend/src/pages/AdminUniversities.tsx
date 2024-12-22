@@ -22,7 +22,7 @@ export function AdminUniversities() {
   } = useUniversityMutations();
 
   const handleEdit = (_id: string) => {
-    const university = universities?.find(u => u._id === _id);
+    const university = universities?.find((u: University) => u._id === _id);
     if (university) {
       setEditingUniversity(university);
     }

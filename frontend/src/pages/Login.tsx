@@ -3,6 +3,7 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import { useAuth } from '../context/useAuth';
+import axios, { AxiosError } from 'axios';
 
 const loginSchema = z.object({
   email: z.string().email('Invalid email address'),
@@ -20,12 +21,33 @@ export function Login() {
 
   const onSubmit = async (data: LoginFormData) => {
     try {
-      await login(data.email, data.password);
-      navigate('/admin/universities');
-    } catch {
-      setError('root', {
-        message: 'Invalid credentials. Try email: admin@example.com, password: admin',
+      const response = await axios.post('/api/auth', {
+        email: data.email,
+        password: data.password
       });
+      
+      if (response.data.user) {
+        try {
+          await login(data.email, data.password);
+          navigate('/admin/universities');
+        } catch (loginError) {
+          console.error('Login context error:', loginError);
+          setError('root', {
+            message: 'فشل في تسجيل الدخول. يرجى المحاولة مرة أخرى.'
+          });
+        }
+      }
+    } catch (error) {
+      console.error('Login error:', error);
+      if (error instanceof AxiosError) {
+        setError('root', {
+          message: error.response?.data?.message || 'حدث خطأ أثناء تسجيل الدخول'
+        });
+      } else {
+        setError('root', {
+          message: 'حدث خطأ غير متوقع'
+        });
+      }
     }
   };
 
