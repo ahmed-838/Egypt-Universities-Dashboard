@@ -9,6 +9,6 @@ export function useAuth() {
   return context;
 }
 
-const login = async (email: string, password: string) => {
-  // منطق تسجيل الدخول
-}; 
+// const login = async (email: string, password: string) => {
+//   // منطق تسجيل الدخول
+// }; 
